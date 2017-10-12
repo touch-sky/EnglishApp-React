@@ -1,0 +1,87 @@
+.ranking-wrap {
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+  
+  
+.ranking-box {
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+    padding: 0 5px;
+    text-align: center;
+  }
+  
+.ranking-box:last-child {
+    border-bottom: none;
+  }
+  
+.ranking-num-box {
+    width: 15%;
+  }
+  
+.ranking-num {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+.ranking-num-bottom {
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+  }
+  
+.ranking-avater {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+  }
+  
+.ranking-sex {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+  
+.rangking-up {
+    width: 20px;
+    height: 20px;
+  }
+  
+.ranking-up-box {
+    width: 15%;
+  }
+  
+.ranking-score {
+    font-size: 0.28rem;
+  }
+  
+.ranking-name {
+    font-size: 0.12rem;
+  }
+  
+.ranking-avater-outbox {
+    width: 30%;
+  }
+  
+.ranking-avater-box {
+    position: relative;
+  }
+  
+.rangking-name-box {
+    width: 50%;
+  }
+  
+.rangking-vip {
+    width: 20px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: red;
+    font-size: 12px;
+    position: absolute;
+    right: -5px;
+    top: 0;
+    color: #fff;
+  }

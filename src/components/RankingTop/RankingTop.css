@@ -1,0 +1,24 @@
+.raning-top-box {
+  border-bottom: 1px solid #ccc;
+  position: fixed;
+  top: 40px;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.raning-top-box div {
+  height: 40px;
+  line-height: 40px;
+  border-left: 1px solid #ccc;
+}
+
+.raning-top-box div:first-child {
+  border-left: none;
+}
+
+.raning-top-box .active {
+  background-color: #5bc0de;
+  color: #fff!important;
+}
